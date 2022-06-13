@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+    @apply bg-zinc-300;
+    @apply grid justify-center items-center;
+}
